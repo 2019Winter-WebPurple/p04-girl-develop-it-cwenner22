@@ -1,0 +1,50 @@
+/*
+*Chloe Wenner
+*5/7/19
+*Girl Develop It
+*/
+
+/* The universal selector*?
+
+* {
+} 
+/* Body properties here */
+
+body {
+background-color: mistyrose;/*changes color to the whole web page*/
+width: 55%;/*Makes information on page 55% as the width*/
+margin: auto;/*centers web page*/
+}
+
+h1{
+text-decoration: underline; /*underlines the h1*/
+font-family: cursive;
+}  
+
+h2{
+text-decoration: underline;/*underlines the h2*/
+font-family: cursive;
+}
+
+img{
+float: right; /*floats the image to the right*/
+}
+
+#logo{
+float:none;
+width: 800px; height: 175px;/*changes width and height to scale the image to the page*/
+}
+
+main{
+font-family: sans-serif;
+}
+
+footer{
+font-family: serif;
+}
+
+a:hover, a:focus{
+color: fuchsia;
+font-size: 150%;
+/*when mouse hovers over links they change size and color*/    
+}
