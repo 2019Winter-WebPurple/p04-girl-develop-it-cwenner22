@@ -16,6 +16,11 @@ width: 55%;/*Makes information on page 55% as the width*/
 margin: auto;/*centers web page*/
 }
 
+header{
+background-color: #ff6666/*changes the background color to a */;
+text-align: center;/*centers the logo*/
+}
+
 h1{
 text-decoration: underline; /*underlines the h1*/
 font-family: cursive;
@@ -31,16 +36,15 @@ float: right; /*floats the image to the right*/
 }
 
 #logo{
-float:none;
-width: 800px; height: 175px;/*changes width and height to scale the image to the page*/
+float: none;/*taked the float away from a logo*/
 }
 
 main{
-font-family: sans-serif;
+font-family: sans-serif;/*changes the whole main section to a different font*/
 }
 
 footer{
-font-family: serif;
+font-family: serif;/*changes the whole main section to a different font*/
 }
 
 a:hover, a:focus{
